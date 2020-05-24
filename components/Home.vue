@@ -3,7 +3,7 @@ import { defineComponent, ref } from 'vue'
 
 import { Server } from 'miragejs'
 
-new Server()
+// new Server()
 
 export default defineComponent({
   name: 'Home',
