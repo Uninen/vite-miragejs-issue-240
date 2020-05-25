@@ -12,12 +12,5 @@ export default defineComponent({
 </script>
 
 <template>
-  <Suspense>
-    <template #default>
-      <home></home>
-    </template>
-    <template #fallback>
-      Loading...
-    </template>
-  </Suspense>
+  <home></home>
 </template>

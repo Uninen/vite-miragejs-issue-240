@@ -7,7 +7,7 @@ import { Server } from 'miragejs'
 
 export default defineComponent({
   name: 'Home',
-  async setup() {
+  setup() {
     const count = ref(0)
     const inc = () => {
       count.value++
